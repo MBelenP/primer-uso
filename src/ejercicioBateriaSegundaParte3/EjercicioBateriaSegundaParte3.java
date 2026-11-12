@@ -9,7 +9,7 @@ public class EjercicioBateriaSegundaParte3 {
 
 
 
-        int num = 1;
+        int num = 49;
         int filas;
         int columnas;
     ;
@@ -21,7 +21,7 @@ public class EjercicioBateriaSegundaParte3 {
                 for (columnas = 0; columnas < matriz[filas].length; columnas++) {
                     matriz[filas][columnas] = num;
                     System.out.print(matriz[filas][columnas] + " ");
-                    num = num + 2;
+                    num = num - 2;
                 }
                 System.out.println();
 
